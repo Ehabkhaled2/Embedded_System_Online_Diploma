@@ -1,29 +1,16 @@
-22:24:10 **** Incremental Build of configuration Debug for project EX_1 ****
+22:41:01 **** Rebuild of configuration Debug for project EX_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX_1.exe main.o 
-Info: Nothing to build for EX_1
-22:24:36 **** Incremental Build of configuration Debug for project EX_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
+22:41:06 **** Incremental Build of configuration Debug for project EX_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX_1.exe main.o 
-22:24:50 **** Incremental Build of configuration Debug for project EX_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
+22:41:26 **** Incremental Build of configuration Debug for project EX_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX_1.exe main.o 
-22:25:03 **** Incremental Build of configuration Debug for project EX_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
+22:42:25 **** Incremental Build of configuration Debug for project EX_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX_1.exe main.o 
-22:27:16 **** Incremental Build of configuration Debug for project EX_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX_1.exe main.o 
-22:27:23 **** Incremental Build of configuration Debug for project EX_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX_1.exe main.o 
-22:27:32 **** Incremental Build of configuration Debug for project EX_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX_1.exe main.o 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
