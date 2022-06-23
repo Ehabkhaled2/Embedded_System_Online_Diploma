@@ -1,0 +1,8 @@
+01:00:59 **** Incremental Build of configuration Debug for project Array_EX_5 ****
+Info: Internal Builder is used for build
+gcc -o Array_EX_5.exe "src\\Array_EX_5.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Array_EX_5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+01:00:59 Build Finished (took 223ms)
+

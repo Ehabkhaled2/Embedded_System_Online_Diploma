@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: May 29, 2022
+ *      Author: Ehab Khaled
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	//Write C Program to Print a Sentence
+	float g,abc=1.5;
+	int big=3;
+	g = big / 2 + big * 4 /big - big + abc / 3 ;
+	printf("%f",g);
+
+}

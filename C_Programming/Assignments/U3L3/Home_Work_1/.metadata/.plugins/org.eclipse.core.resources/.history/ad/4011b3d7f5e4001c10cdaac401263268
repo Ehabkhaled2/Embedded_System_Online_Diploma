@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: May 29, 2022
+ *      Author: Ehab Khaled
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	//Write C Program to Print a Sentence
+	float tig=3.2;
+	int god=3,s,qui=2,add=4;
+	s = qui * add / 4 - 6 /2 + 2 / 3 * 6 / god ;
+	printf("%d",7/22*(2+3.14)*3/5);
+
+}

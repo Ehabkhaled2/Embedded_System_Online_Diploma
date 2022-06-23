@@ -1,39 +1,7 @@
-17:12:55 **** Rebuild of configuration Debug for project EX_8 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_8.o" "..\\src\\EX_8.c" 
-gcc -o EX_8.exe "src\\EX_8.o" 
-17:13:03 **** Incremental Build of configuration Debug for project EX_8 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_8.o" "..\\src\\EX_8.c" 
-..\src\EX_8.c: In function 'main':
-..\src\EX_8.c:19:2: error: too many arguments to function 'gets'
-  gets("%f%f",&A,&B);
-  ^~~~
-In file included from ..\src\EX_8.c:11:0:
-c:\mingw\include\stdio.h:676:41: note: declared here
- _CRTIMP __cdecl __MINGW_NOTHROW  char * gets (char *);
-                                         ^~~~
-..\src\EX_8.c:23:2: error: expected ';' before 'switch'
-  switch(OP)
-  ^~~~~~
-17:13:32 **** Incremental Build of configuration Debug for project EX_8 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_8.o" "..\\src\\EX_8.c" 
-..\src\EX_8.c: In function 'main':
-..\src\EX_8.c:19:2: error: too many arguments to function 'gets'
-  gets("%f%f",&A,&B);
-  ^~~~
-In file included from ..\src\EX_8.c:11:0:
-c:\mingw\include\stdio.h:676:41: note: declared here
- _CRTIMP __cdecl __MINGW_NOTHROW  char * gets (char *);
-                                         ^~~~
-17:13:46 **** Incremental Build of configuration Debug for project EX_8 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_8.o" "..\\src\\EX_8.c" 
-gcc -o EX_8.exe "src\\EX_8.o" 
+Info: Nothing to build for EX_1
 Info: Nothing to build for EX_8
-17:20:18 **** Incremental Build of configuration Debug for project EX_8 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_8.o" "..\\src\\EX_8.c" 
-gcc -o EX_8.exe "src\\EX_8.o" 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_8
+Info: Nothing to build for EX_8
 Info: Nothing to build for EX_8

@@ -1,1 +1,35 @@
-Info: Nothing to build for EX_1
+23:12:50 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:22: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf("%d %d",++i,i++);
+                     ~^~
+..\main.c:20:12: warning: unused variable 'j' [-Wunused-variable]
+  int X,i=4,j=7;
+            ^
+..\main.c:20:6: warning: unused variable 'X' [-Wunused-variable]
+  int X,i=4,j=7;
+      ^
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+
+23:12:51 Build Finished (took 500ms)
+

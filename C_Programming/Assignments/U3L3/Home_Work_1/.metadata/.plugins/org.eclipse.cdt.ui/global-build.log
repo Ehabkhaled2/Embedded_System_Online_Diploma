@@ -15,3 +15,616 @@ gcc -o EX_7.exe "src\\EX_7.o"
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_7.o" "..\\src\\EX_7.c" 
 gcc -o EX_7.exe "src\\EX_7.o" 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+17:54:39 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_5.o" "..\\src\\EX_5.c" 
+gcc -o EX_5.exe "src\\EX_5.o" 
+Info: Nothing to build for EX_6
+Info: Nothing to build for EX_7
+19:07:50 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:11: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  printf("%f",4+2%-8);
+           ^
+gcc -o EX_1.exe main.o 
+19:15:39 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_1.exe main.o 
+19:28:42 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX_1.exe main.o 
+19:32:34 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+19:34:51 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("%d",7/22*(2+3.14)*3/5);
+           ^
+..\main.c:16:12: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+19:35:07 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:12: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+21:54:32 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:12: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+..\main.c:19:2: warning: 'FLOAT' is used uninitialized in this function [-Wuninitialized]
+  printf("%f",FLOAT);
+  ^~~~~~~~~~~~~~~~~~
+gcc -o EX_1.exe main.o 
+Info: Nothing to build for EX_1
+21:54:45 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:12: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+21:55:14 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:12: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+22:05:03 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:15: error: expected expression before '/=' token
+  float _basic=/=i+j;
+               ^~
+..\main.c:16:30: warning: unused variable 'j' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                              ^
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:05:19 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:14: error: expected '=', ',', ';', 'asm' or '__attribute__' before '/=' token
+  float _basic/=i+j;
+              ^~
+..\main.c:17:14: error: expected expression before '/=' token
+..\main.c:19:14: error: '_basic' undeclared (first use in this function)
+  printf("%f",_basic);
+              ^~~~~~
+..\main.c:19:14: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:16:30: warning: unused variable 'j' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                              ^
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:06:13 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:17:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before '/=' token
+  float _basic /=i+j;
+               ^~
+..\main.c:17:15: error: expected expression before '/=' token
+..\main.c:19:14: error: '_basic' undeclared (first use in this function)
+  printf("%f",_basic);
+              ^~~~~~
+..\main.c:19:14: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:16:30: warning: unused variable 'j' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                              ^
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:06:36 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+..\main.c:18:9: warning: '_basic' is used uninitialized in this function [-Wuninitialized]
+  _basic /=i+j;
+  ~~~~~~~^~~~~
+gcc -o EX_1.exe main.o 
+22:20:48 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:8: error: 'b' undeclared (first use in this function)
+  int a=b=c=1;
+        ^
+..\main.c:19:8: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:19:10: error: 'c' undeclared (first use in this function)
+  int a=b=c=1;
+          ^
+..\main.c:19:6: warning: unused variable 'a' [-Wunused-variable]
+  int a=b=c=1;
+      ^
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:38:14 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:10: error: lvalue required as left operand of assignment
+  ++_basic=4;
+          ^
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:38:16 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:19:10: error: lvalue required as left operand of assignment
+  ++_basic=4;
+          ^
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:41:28 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:8: error: redefinition of 'i'
+  int X,i=4,j=7;                                                                           X=j || i++ && 1
+        ^
+..\main.c:16:26: note: previous definition of 'i' was here
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                          ^
+..\main.c:20:12: error: redefinition of 'j'
+  int X,i=4,j=7;                                                                           X=j || i++ && 1
+            ^
+..\main.c:16:30: note: previous definition of 'j' was here
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                              ^
+..\main.c:20:102: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  int X,i=4,j=7;                                                                           X=j || i++ && 1
+                                                                                                  ~~~~^~~~
+..\main.c:23:2: error: expected ';' before 'printf'
+  printf("%d",X);
+  ^~~~~~
+..\main.c:20:6: warning: variable 'X' set but not used [-Wunused-but-set-variable]
+  int X,i=4,j=7;                                                                           X=j || i++ && 1
+      ^
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:41:45 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:20:8: error: redefinition of 'i'
+  int X,i=4,j=7;
+        ^
+..\main.c:16:26: note: previous definition of 'i' was here
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                          ^
+..\main.c:20:12: error: redefinition of 'j'
+  int X,i=4,j=7;
+            ^
+..\main.c:16:30: note: previous definition of 'j' was here
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                              ^
+..\main.c:21:13: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  X=j || i++ && 1;
+         ~~~~^~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4,i=5,j=10;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:42:20 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:18:11: error: 'i' undeclared (first use in this function)
+  _basic /=i+j;
+           ^
+..\main.c:18:11: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:18:13: error: 'j' undeclared (first use in this function)
+  _basic /=i+j;
+             ^
+..\main.c:21:13: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  X=j || i++ && 1;
+         ~~~~^~~~
+..\main.c:17:8: warning: variable '_basic' set but not used [-Wunused-but-set-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+22:42:30 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:13: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  X=j || i++ && 1;
+         ~~~~^~~~
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+22:42:50 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:13: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  X=j || i++ && 1;
+         ~~~~^~~~
+..\main.c:20:6: warning: variable 'X' set but not used [-Wunused-but-set-variable]
+  int X,i=4,j=7;
+      ^
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+22:50:29 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:13: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  X=j || i++ && 1;
+         ~~~~^~~~
+..\main.c:20:6: warning: variable 'X' set but not used [-Wunused-but-set-variable]
+  int X,i=4,j=7;
+      ^
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+23:12:09 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:13: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  X=j || i++ && 1;
+         ~~~~^~~~
+..\main.c:24:14: warning: unknown conversion type character 'D' in format [-Wformat=]
+  printf("%d %D",++i,i++);
+              ^
+..\main.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%d %D",++i,i++);
+         ^~~~~~~
+..\main.c:24:22: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf("%d %D",++i,i++);
+                     ~^~
+..\main.c:20:6: warning: variable 'X' set but not used [-Wunused-but-set-variable]
+  int X,i=4,j=7;
+      ^
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+23:12:22 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:21:13: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  X=j || i++ && 1;
+         ~~~~^~~~
+..\main.c:24:14: warning: unknown conversion type character 'D' in format [-Wformat=]
+  printf("%d %D",++i,i++);
+              ^
+..\main.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%d %D",++i,i++);
+         ^~~~~~~
+..\main.c:24:22: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf("%d %D",++i,i++);
+                     ~^~
+..\main.c:20:6: warning: variable 'X' set but not used [-Wunused-but-set-variable]
+  int X,i=4,j=7;
+      ^
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+23:12:41 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:14: warning: unknown conversion type character 'D' in format [-Wformat=]
+  printf("%d %D",++i,i++);
+              ^
+..\main.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%d %D",++i,i++);
+         ^~~~~~~
+..\main.c:24:22: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf("%d %D",++i,i++);
+                     ~^~
+..\main.c:20:12: warning: unused variable 'j' [-Wunused-variable]
+  int X,i=4,j=7;
+            ^
+..\main.c:20:6: warning: unused variable 'X' [-Wunused-variable]
+  int X,i=4,j=7;
+      ^
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 
+23:12:50 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:22: warning: operation on 'i' may be undefined [-Wsequence-point]
+  printf("%d %d",++i,i++);
+                     ~^~
+..\main.c:20:12: warning: unused variable 'j' [-Wunused-variable]
+  int X,i=4,j=7;
+            ^
+..\main.c:20:6: warning: unused variable 'X' [-Wunused-variable]
+  int X,i=4,j=7;
+      ^
+..\main.c:17:8: warning: unused variable '_basic' [-Wunused-variable]
+  float _basic ;
+        ^~~~~~
+..\main.c:16:20: warning: unused variable 'add' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+                    ^~~
+..\main.c:16:14: warning: unused variable 'qui' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+              ^~~
+..\main.c:16:12: warning: unused variable 's' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+            ^
+..\main.c:16:6: warning: unused variable 'god' [-Wunused-variable]
+  int god=3,s,qui=2,add=4;
+      ^~~
+..\main.c:15:8: warning: unused variable 'tig' [-Wunused-variable]
+  float tig=3.2;
+        ^~~
+gcc -o EX_1.exe main.o 

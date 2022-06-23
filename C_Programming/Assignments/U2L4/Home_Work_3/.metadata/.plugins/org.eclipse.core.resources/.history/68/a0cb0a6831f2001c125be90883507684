@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : String_EX_3.c
+ Author      : Ehab Khaled
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char text[100],rev[100];
+	int length,j=0;
+
+	puts("Enter a string: ");
+	fflush(stdin); fflush(stdout);
+	gets(text);
+
+	length=strlen(text);
+
+	for(int i=length;i>0;i--)
+	{
+		rev[j]=text[i];
+		j++;
+	}
+
+	for(int i=0;i<length;i++)
+	{
+		printf("ñReverse String is: %c",rev[i]);
+	}
+
+}
