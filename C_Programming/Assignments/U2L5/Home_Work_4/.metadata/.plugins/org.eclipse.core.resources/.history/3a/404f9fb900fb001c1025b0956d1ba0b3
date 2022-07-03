@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : EX_3.c
+ Author      : Ehab Khaled
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void reverse(char sentence[])
+{
+	reverse(sentence+1);
+}
+
+int main(void) {
+	char word[100];
+	int size;
+	printf("E");
+	printf("z");
+	fflush(stdin); fflush(stdout);
+	gets(word);
+	size= strlen(word);
+	reverse(word);
+}

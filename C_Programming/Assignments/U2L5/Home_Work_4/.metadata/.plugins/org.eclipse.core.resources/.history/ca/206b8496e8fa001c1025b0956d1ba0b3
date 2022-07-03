@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : EX_1.c
+ Author      : Ehab Khaled
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void prime(int start,int end)
+{
+	for(int i=start;i<=end;i++)
+	{
+		if(i%2==0||i%3==0||i%5==0)
+			continue;
+		else
+			printf("%d\t",i);
+	}
+
+}
+
+int main(void) {
+	int s=0,e=0;
+	printf("Enter two numbers(Intervals): ");
+	fflush(stdin); fflush(stdout);
+	scanf("%i",s);
+	scanf("%i",e);
+	prime(s,e);
+}

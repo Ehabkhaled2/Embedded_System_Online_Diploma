@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : EX_2.c
+ Author      : Ehab Khaled
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int factorial(int num)
+{
+	int fact=num;
+	if(num!=1)
+		fact*=factorial(num-1);
+
+	return fact;
+}
+
+int main(void) {
+	int num,fact;
+	printf("enter num: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&num);
+	fact=factorial(num);
+	printf("%d",fact);
+}

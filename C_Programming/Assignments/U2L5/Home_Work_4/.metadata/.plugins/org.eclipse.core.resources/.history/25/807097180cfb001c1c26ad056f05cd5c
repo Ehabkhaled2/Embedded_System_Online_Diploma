@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+ Name        : EX_4.c
+ Author      : Ehab Khaled
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void powerr(int num,int pow)
+{
+	while(pow!=0)
+	{
+		num*=power(num,pow);
+		pow--;
+	}
+	printf("%d",num);
+}
+
+int main(void)
+{
+	int number,power;
+	printf("Enter base number: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&number);
+	printf("Enter power number(Positive): ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&power);
+	powerr(number,power);
+}
